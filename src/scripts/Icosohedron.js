@@ -38,7 +38,7 @@ export default class Icosohedron {
     }
 
     init = () => {
-        const path = 'images/textures'
+        const path = '/public/images/textures'
         const fileName = 'scramble.jpg'
 
         this.textureCube = THREE.ImageUtils.loadTextureCube([

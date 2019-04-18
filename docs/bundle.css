@@ -118,7 +118,7 @@ body {
   margin-left: 16.66667%;
   position: relative; }
   .deck:after {
-    background-image: url("/images/decoration/wing-left-in.svg");
+    background-image: url("/public/images/decoration/wing-left-in.svg");
     content: '';
     width: 272px;
     height: 270px;
@@ -136,51 +136,51 @@ body {
 
 @keyframes example-one-anim-1 {
   0% {
-    clip: rect(87px, 750px, 67px, 0); }
+    clip: rect(85px, 750px, 75px, 0); }
   10% {
-    clip: rect(93px, 750px, 15px, 0); }
+    clip: rect(19px, 750px, 37px, 0); }
   20% {
-    clip: rect(72px, 750px, 111px, 0); }
+    clip: rect(52px, 750px, 41px, 0); }
   30% {
-    clip: rect(63px, 750px, 64px, 0); }
+    clip: rect(39px, 750px, 104px, 0); }
   40% {
-    clip: rect(66px, 750px, 90px, 0); }
+    clip: rect(75px, 750px, 58px, 0); }
   50% {
-    clip: rect(38px, 750px, 107px, 0); }
+    clip: rect(23px, 750px, 97px, 0); }
   60% {
-    clip: rect(108px, 750px, 46px, 0); }
+    clip: rect(58px, 750px, 62px, 0); }
   70% {
-    clip: rect(19px, 750px, 50px, 0); }
+    clip: rect(4px, 750px, 68px, 0); }
   80% {
-    clip: rect(70px, 750px, 85px, 0); }
+    clip: rect(55px, 750px, 98px, 0); }
   90% {
-    clip: rect(12px, 750px, 97px, 0); }
+    clip: rect(66px, 750px, 109px, 0); }
   100% {
-    clip: rect(83px, 750px, 101px, 0); } }
+    clip: rect(38px, 750px, 52px, 0); } }
 
 @keyframes example-one-anim-2 {
   0% {
-    clip: rect(79px, 750px, 58px, 0); }
+    clip: rect(26px, 750px, 38px, 0); }
   10% {
-    clip: rect(93px, 750px, 38px, 0); }
+    clip: rect(3px, 750px, 7px, 0); }
   20% {
-    clip: rect(55px, 750px, 18px, 0); }
+    clip: rect(68px, 750px, 84px, 0); }
   30% {
-    clip: rect(28px, 750px, 108px, 0); }
+    clip: rect(48px, 750px, 110px, 0); }
   40% {
-    clip: rect(111px, 750px, 3px, 0); }
+    clip: rect(2px, 750px, 43px, 0); }
   50% {
-    clip: rect(5px, 750px, 64px, 0); }
+    clip: rect(13px, 750px, 75px, 0); }
   60% {
-    clip: rect(51px, 750px, 25px, 0); }
+    clip: rect(75px, 750px, 25px, 0); }
   70% {
-    clip: rect(31px, 750px, 37px, 0); }
+    clip: rect(62px, 750px, 31px, 0); }
   80% {
-    clip: rect(24px, 750px, 113px, 0); }
+    clip: rect(14px, 750px, 78px, 0); }
   90% {
-    clip: rect(9px, 750px, 15px, 0); }
+    clip: rect(65px, 750px, 83px, 0); }
   100% {
-    clip: rect(58px, 750px, 62px, 0); } }
+    clip: rect(98px, 750px, 44px, 0); } }
     .deck__heading:before, .deck__heading:after {
       content: attr(data-text);
       position: absolute;
