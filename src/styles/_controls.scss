@@ -1,0 +1,25 @@
+.controls {
+    & > .button {
+        margin-right: 1px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.button {
+    background-color: $col-green;
+    border: 0 none;
+    display: inline-block;
+    font: {
+        family: $font-mono;
+        weight: 900;
+    };
+    padding: 16px 32px;
+    color: $col-purple;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    z-index: 1000;
+}

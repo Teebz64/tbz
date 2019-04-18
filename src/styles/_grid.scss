@@ -1,0 +1,19 @@
+.grid {
+    align-items: stretch;
+    display: flex;
+    display: none;
+    
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    width: 100%;
+
+    & > li {
+        background-color: $col-grid-color;
+        width: 1px;
+    }
+}

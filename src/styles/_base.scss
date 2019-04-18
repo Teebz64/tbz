@@ -1,0 +1,24 @@
+body {
+    background: {
+        color: $col-bg;
+    }
+    color: $col-white;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding-top: 120px;
+    position: relative;
+
+    &--contains-grid {
+        min-height: 100vh;
+    }
+}
+
+.icosohedron {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

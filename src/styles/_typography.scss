@@ -1,0 +1,15 @@
+$font-rigid-square: rigid-square, sans-serif;
+$font-eurostile: eurostile-extended, sans-serif; //900, 500
+$font-ibm-plex-mono: ibm-plex-mono, sans-serif;
+$font-system-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+$font-mono: $font-ibm-plex-mono;
+$font-body: $font-system-default;
+
+h1 {
+    font-family: $font-rigid-square;
+}
+
+h2 {
+
+}

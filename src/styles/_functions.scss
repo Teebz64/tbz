@@ -1,0 +1,3 @@
+@function col($n) {
+    @return (100% / 6) * $n
+}

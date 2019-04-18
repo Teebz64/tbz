@@ -1,0 +1,87 @@
+.deck {
+    align-items: stretch;
+    backface-visibility: false;
+    display: flex;
+    flex-direction: column;
+    width: col(3);
+    margin-left: col(1);
+    position: relative;
+
+    &:after {
+        background: {
+            image: url('/images/decoration/wing-left-in.svg');
+        };
+        content: '';
+        width: 272px;
+        height: 270px;
+        position: absolute;
+        right: calc(100% + 24px);
+        top: 0;
+        transform: translateY(-50%);
+    }
+
+    &__heading {
+        animation: {
+            name: flicker;
+            duration: .05s;
+            iteration-count: infinite;
+        };
+        font-size: 120px;
+        @include textGlitch("example-one", 10, white, $col-bg, red, blue, 750, 115);
+    }
+
+    &__subheading-bar {
+        animation: {
+            name: flicker;
+            duration: .05s;
+            iteration-count: infinite;
+        };
+        background-color: $col-white;
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    &__subheading {
+        color: $col-black;
+        font: {
+            family: $font-eurostile;
+            weight: 500;
+        };
+        text-transform: uppercase;
+
+        &:first-child {
+            margin-left: 16px;
+        }
+
+        &:last-child {
+            font-weight: 900;
+            margin-right: 16px;
+        }
+    }
+
+    &__intro {
+        font: {
+            family: $font-mono;
+            size: 14px;
+        }
+        line-height: 1.4;
+        margin-bottom: 40px;
+    }
+}
+
+.skills {
+    margin-bottom: 24px;
+
+    & > li {
+        color: $col-white;
+        font: {
+            family: $font-eurostile;
+            size: 20px;
+        };
+        text-transform: uppercase;
+    }
+}
+

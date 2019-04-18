@@ -46,6 +46,11 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.4.0"
+    "@babel/polyfill": "^7.4.0",
+    "p5": "^0.7.3",
+    "postprocessing": "^6.2.1",
+    "reset-css": "^4.0.1",
+    "scramble-text": "0.0.8",
+    "three": "^0.103.0"
   }
 }
