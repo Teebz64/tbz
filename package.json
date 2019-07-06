@@ -47,6 +47,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.0",
+    "animejs": "^3.0.1",
     "p5": "^0.7.3",
     "postprocessing": "^6.2.1",
     "reset-css": "^4.0.1",

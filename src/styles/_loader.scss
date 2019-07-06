@@ -1,0 +1,39 @@
+$rows: 12;
+$cols: 12;
+$height: 100 / $rows;
+$width: 100 / $cols;
+
+.loader {
+    align-items: center;
+    background-color: rgba($col-bg, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+
+    &__text {
+        opacity: .9;
+    }
+
+    &__tile-container {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        justify-content: stretch;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    &__tile {
+        background-color: white;
+        border: 1px solid white;
+        flex: 1 0 auto;
+        width: #{$width}vw;
+        height: #{$height}vh;
+    }
+}

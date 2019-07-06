@@ -7,6 +7,7 @@ module.exports = {
   entry: {
     app: Path.resolve(__dirname, '../src/scripts/index.js')
   },
+  stats: 'none',
   output: {
     path: Path.join(__dirname, '../docs'),
     filename: 'js/[name].js'

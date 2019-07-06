@@ -9,7 +9,7 @@
 
     &:after {
         background: {
-            image: url('/public/images/decoration/wing-left-in.svg');
+            image: url('../../public/images/decoration/wing-left-in.svg');
         };
         content: '';
         width: 272px;
@@ -27,6 +27,8 @@
             iteration-count: infinite;
         };
         font-size: 120px;
+        text-transform: uppercase;
+        white-space: nowrap;
         @include textGlitch("example-one", 10, white, $col-bg, red, blue, 750, 115);
     }
 
