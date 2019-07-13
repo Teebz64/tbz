@@ -3,17 +3,7 @@ body {
         color: $col-bg;
     }
     color: $col-white;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 1280px;
-    padding-top: 120px;
-    position: relative;
-
-    &--contains-grid {
-        min-height: 100vh;
-    }
+    padding: 40px;
 }
 
 .icosohedron {
@@ -21,4 +11,22 @@ body {
     top: 0;
     left: 0;
     z-index: -1;
+}
+
+.contact-me {
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    mix-blend-mode: difference;
+
+    & > img {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }

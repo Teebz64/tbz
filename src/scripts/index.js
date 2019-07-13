@@ -1,25 +1,22 @@
 import '../styles/index.scss';
 
-import Icosohedron from '../scripts/Icosohedron'
+//import Icosohedron from '../scripts/Icosohedron'
 import TextScrambler from '../scripts/TextScrambler'
-import Loader from '../scripts/Loader'
+import ScrollInertia from '../scripts/ScrollInertia'
+import Reticle from '../scripts/Reticle'
 
 const init = () => {
-    initIcosohedron()
-    initTextScramble()
-    initLoader()
+//    initIcosohedron()
+//    initTextScramble()
+    // initScrollInertia()
+    initReticle()
 }
 
 const initIcosohedron = () => new Icosohedron()
-const initLoader = () => new Loader()
-
-const initTextScramble = () => {
-    const elements = document.querySelectorAll('[data-scramble]')
-
-    elements.forEach(
-        (element) => new TextScrambler(element)
-    )
-}
+const initScrollInertia = () => new ScrollInertia()
+const initReticle = () => new Reticle(
+    document.querySelector('.reticle')
+)
 
 init()
 

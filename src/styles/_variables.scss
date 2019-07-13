@@ -1,8 +1,6 @@
 $col-black: #000;
 $col-white: #FFF;
-$col-deep-purple: #140916;
-$col-purple: #35153C;
-$col-green: #40C057;
+$col-accent: #8EECA3;
 
-$col-bg: #140916;
-$col-grid-color: rgba($col-white, .05);
+$col-bg: $col-black;
+$col-grid-color: rgba($col-white, .1);

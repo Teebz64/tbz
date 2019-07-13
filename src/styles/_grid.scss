@@ -1,14 +1,13 @@
 .grid {
     align-items: stretch;
     display: flex;
-    position: absolute;
+    position: fixed;
     pointer-events: none;
     top: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: 40px;
+    right: 40px;
     justify-content: space-between;
-    width: 100%;
 
     & > li {
         background-color: $col-grid-color;

@@ -1,0 +1,26 @@
+.section {
+    &__indicator {
+        align-items: center;
+        color: $col-accent;
+        display: flex;
+        margin-bottom: 24px;
+
+        &:before {
+            color: $col-white;
+            content: 'セグメント';
+            margin-right: 24px;
+        }
+
+        &:after {
+            background-color: $col-white;
+            content: '';
+            height: 1px;
+            width: 140px;
+            margin-left: 4px;
+        }
+
+        &--x-margin-bottom {
+            margin-bottom: 72px;
+        }
+    }
+}

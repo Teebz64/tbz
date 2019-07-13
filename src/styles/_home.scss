@@ -1,89 +1,65 @@
-.deck {
-    align-items: stretch;
-    backface-visibility: false;
-    display: flex;
-    flex-direction: column;
-    width: col(3);
-    margin-left: col(1);
-    position: relative;
+.masthead {
+    margin-bottom: 200px;
 
-    &:after {
-        background: {
-            image: url('../../public/images/decoration/wing-left-in.svg');
-        };
-        content: '';
-        width: 272px;
-        height: 270px;
-        position: absolute;
-        right: calc(100% + 24px);
-        top: 0;
-        transform: translateY(-50%);
+    &__bottom {
+        align-items: stretch;
+        display: flex;
     }
 
-    &__heading {
-        animation: {
-            name: flicker;
-            duration: .05s;
-            iteration-count: infinite;
-        };
-        font-size: 120px;
-        text-transform: uppercase;
-        white-space: nowrap;
-        @include textGlitch("example-one", 10, white, $col-bg, red, blue, 750, 115);
+    &__headline {
+        margin-bottom: 24px;
     }
 
-    &__subheading-bar {
-        animation: {
-            name: flicker;
-            duration: .05s;
-            iteration-count: infinite;
-        };
-        background-color: $col-white;
+    &__text {
+
+    }
+
+    &__decoration {
+        align-items: center;
+        border-radius: 999px;
+        border: 1px solid $col-white;
+        display: inline-flex;
+        padding: 16px 32px;
+        margin-right: 40px;
+    }
+
+    &__timespan {
+        color: $col-accent;
+        margin-left: 40px;
+    }
+
+    &__textline {
+        text-transform: lowercase;
+
+        &--large {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+    }
+}
+
+.work {
+    li {
+        align-items: center;
+        border-bottom: 1px solid $col-white;
         display: flex;
         justify-content: space-between;
-        padding: 8px 0;
-        width: 100%;
-        margin-bottom: 32px;
+        padding: 64px 0;
     }
 
-    &__subheading {
-        color: $col-black;
-        font: {
-            family: $font-eurostile;
-            weight: 500;
-        };
-        text-transform: uppercase;
-
-        &:first-child {
-            margin-left: 16px;
-        }
-
-        &:last-child {
-            font-weight: 900;
-            margin-right: 16px;
-        }
+    &__category {
+        margin-bottom: 16px;
     }
 
-    &__intro {
-        font: {
-            family: $font-mono;
-            size: 14px;
-        }
-        line-height: 1.4;
-        margin-bottom: 40px;
+    &__title {
+        // background-color: $col-accent;
+        color: $col-accent;
+        font-size: 64px;
+        //text-decoration: underline;
+        //padding: 0 8px 14px;
+    }
+
+    &__controls {
+        font-size: 24px;
     }
 }
-
-.skills {
-    margin-bottom: 24px;
-
-    & > li {
-        color: $col-white;
-        font: {
-            family: $font-eurostile;
-            size: 20px;
-        };
-        text-transform: uppercase;
-    }
-}
-

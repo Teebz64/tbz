@@ -1,0 +1,19 @@
+.overlay {
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    background-color: rgba($col-bg, .6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 80px;
+
+    &__foreground {
+        background-color: black;
+        //border: 1px solid $col-white;
+        flex: 1 0 auto;
+        box-shadow: 0px 0px 80px 30px rgba($col-accent, .2);
+    }
+}
