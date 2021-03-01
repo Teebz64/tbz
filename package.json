@@ -52,6 +52,6 @@
     "postprocessing": "^6.2.1",
     "reset-css": "^4.0.1",
     "scramble-text": "0.0.8",
-    "three": "^0.103.0"
+    "three": "^0.125.0"
   }
 }
